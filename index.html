@@ -639,7 +639,7 @@ and monitor their children.</p>
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
                     <h3>Email</h3>
-                    <a href="mailto:shahbazmikrani0@gmail.com">shabazmikrani0@gmail.com</a>
+                    <a href="mailto:shabazmikrani0@gmail.com">shabazmikrani0@gmail.com</a>
                 </div>
             </div>
         </section>
@@ -764,7 +764,7 @@ and monitor their children.</p>
             "retina_detect": true
         });
         
-        // Animate skill bars on scroll
+        
         const skillBars = document.querySelectorAll('.skill-progress');
         
         function animateSkills() {
@@ -774,7 +774,7 @@ and monitor their children.</p>
             });
         }
         
-        // Run animation when skills section is in view
+    
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -786,7 +786,7 @@ and monitor their children.</p>
         
         observer.observe(document.querySelector('.skills'));
         
-        // Smooth scrolling for navigation links
+        
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
                 e.preventDefault();
@@ -796,10 +796,10 @@ and monitor their children.</p>
             });
         });
         
-        // PDF download functionality
+    
         document.getElementById('downloadCV').addEventListener('click', function(e) {
             e.preventDefault();
-            // Replace with your actual PDF file
+        
             const pdfUrl = 'resume.pdf';
             const link = document.createElement('a');
             link.href = pdfUrl;
@@ -812,5 +812,6 @@ and monitor their children.</p>
 </body>
 
 </html>
+
 
 
